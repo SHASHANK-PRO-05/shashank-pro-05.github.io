@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, I am Shashank Kapoor and I am a B.tech graduate from Bharati Vidyapeeth College of Engineering. I have started working on competitive programming. During this training, whatever I will learn, I will share that on this blog. I will try to work on Spark as well and will share insights with you. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+I am interested in learning two things, algos and distributed computing. So, if you are looking for something like that or are even interested in practicing and studying together, you are most welcome to join me. 
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+FYI: This blog is purely technical and is just to share my daily learnings. If that learnings help in any sought of way,  enjoy!!
+
+
