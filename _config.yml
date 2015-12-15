@@ -16,6 +16,6 @@ url: "http://shashank-prof-05.github.io" # the base hostname & protocol for your
 twitter_username: ProShanky
 github_username:  shashank-pro-05
 gems: [jekyll-paginate]
-paginate: 2
+paginate: 10
 # Build settings
 markdown: kramdown
