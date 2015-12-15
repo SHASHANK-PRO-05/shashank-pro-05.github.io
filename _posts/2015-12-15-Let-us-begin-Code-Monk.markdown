@@ -94,6 +94,6 @@ if (sum == x) {
 }
 {% endhighlight %}
 
-Peace Man. See you in next Blog. Let me know if something is arcane here.
+Peace Man. See you in next post. Let me know if something is arcane here.
 
 [code-monk-link]:https://www.hackerearth.com/codemonk/
