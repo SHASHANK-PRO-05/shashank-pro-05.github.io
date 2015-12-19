@@ -3,82 +3,87 @@ layout: code
 ---
 {% highlight ruby %}	
 import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.InputStream;
 import java.io.PrintWriter;
-import java.util.StringTokenizer;
+import java.util.InputMismatchException;
 
 public class boilerPlate {
-	/*
-	 * These variables will be used to get the input from 
-	 * the dom judge.
-	 * 
-	 *  br=is a static buffered reader
-	 *  st=is a string tokenizer. it uses spaces to split
-	 *  
-	 */
-	static BufferedReader br;
-	static StringTokenizer st;
-
-	/*
-	 * Driver program
-	 */
-	public static void main(String[] args) throws Exception {
-		br = new BufferedReader(new InputStreamReader(System.in));
-		PrintWriter out = new PrintWriter(new BufferedOutputStream(System.out));
-		int t = nextInt();
-		StringBuilder builder = new StringBuilder("");
-		while (t-- != 0) {
-
+	static int numChar;
+	static int curChar;
+	static byte[] buffer = new byte[1024];
+	static InputStream stream;
+	static PrintWriter out;
+	public static void main(String[] args) throws InputMismatchException,IOException {
+		stream=System.in;
+		out=new PrintWriter(new BufferedOutputStream(System.out));
+		StringBuilder builder=new StringBuilder();
+		int t=readInt();
+		while(t--!=0){
 		}
 		out.println(builder);
 		out.flush();
 		out.close();
 	}
-	
-	/*
-	 * build your functions below this
-	 */
-	
 
-	/*
-	 * Functions below this comment are all used in 
-	 * reading inputs in a fast manner.
-	 * 
-	 */
-	static String next() {
-		while (st == null || !st.hasMoreElements()) {
-			try {
-				st = new StringTokenizer(br.readLine());
-			} catch (IOException e) {
-				e.printStackTrace();
+	public static int read() throws IOException {
+		if (numChar <= curChar) {
+			curChar = 0;
+			numChar = stream.read(buffer);
+			if (numChar <= 0) {
+				return -1;
 			}
 		}
-		return st.nextToken();
+		return buffer[curChar++];
 	}
 
-	static int nextInt() {
-		return Integer.parseInt(next());
-	}
-
-	static long nextLong() {
-		return Long.parseLong(next());
-	}
-
-	static double nextDouble() {
-		return Double.parseDouble(next());
-	}
-
-	static String nextLine() {
-		String str = "";
-		try {
-			str = br.readLine();
-		} catch (IOException e) {
-			e.printStackTrace();
+	public static long readLong() throws IOException, InputMismatchException {
+		int c = read();
+		if (c == -1)
+			throw new IOException();
+		while (isSpaceChar(c)) {
+			c = read();
 		}
-		return str;
+		boolean negative = false;
+		if (c == '-') {
+			negative = true;
+			c = read();
+		}
+		long res = 0;
+		while (!isSpaceChar(c)) {
+			if (c < '0' || c > '9')
+				throw new InputMismatchException();
+			res *= 10;
+			res += (c - '0');
+			c = read();
+		}
+		if (negative)
+			return -res;
+		return res;
 	}
 
+	public static int readInt() throws IOException, InputMismatchException {
+		return (int) readLong();
+	}
+
+	public static String readString() throws IOException {
+		int c = read();
+		if (c == -1)
+			throw new IOException();
+		while (isSpaceChar(c)) {
+			c = read();
+		}
+		StringBuilder builder = new StringBuilder();
+		while (!isSpaceChar(c)) {
+			builder.append((char) c);
+			c=read();
+		}
+		return builder.toString();
+	}
+
+	public static boolean isSpaceChar(int c) {
+		return c == ' ' || c == '\n' || c == '\t' || c == '\r' || c == -1;
+	}
 }
+
 {% endhighlight %}
