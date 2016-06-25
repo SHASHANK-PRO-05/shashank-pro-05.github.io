@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Jeky soft!"
+date:   2016-06-26 00:00:00 +0530
+categories: jekyll update
+---
+Yo, I must say this Jekyll blogging is nice. Why the heck they named it Jekyll, I don't know, anyways, I will be using this to write some awesome --hopefully-- posts regarding data science. I am just a new data engineer with some data in my hand. Let's see whether we can find some awesome stuff out of this, and whatever I will find I will share it on this blog; not everything :) . Sometimes I will be sharing some crap also -- It is my blog.
