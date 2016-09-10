@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Migrating from full stack to data engineer"
-date:   2016-07-03 00:00:00 +0530
-categories: data firststep
----
-
-So, recently, I got promoted to a position of data engineer; yeahhhhhhhhh(boring tone with :/ this face), not really of that level, still in learning phase. My career is taking a new turn, so, I must get ready for it. I must do something about it. So, what I have done is, I have joined a Udacity nano degree program -- doing it only with supportive courses, paid version is expensive man :/ . Hmm, so the course is actually good. I never thought I would be using mean, median and mode for data analytics to that extent. Learning distributions, histograms, excel(Libre office calc) is actually fun and easy. So what is all the fuss about this big data analytics blah blah blah? It took time for me to figure out the answer to that question and the answer is big data itself. Have you ever felt that you have big data? Calm down my friend and wrangle with that data. Try to find out how much of it is actually useful. Tried? If you have good data, congratulations, I am happy for you, my friend. But if you are with me, we need to collect good data man. So tomorrow, go to your supervisor/yourself and say, I want to revise the way we collect data -- I am going to do that tomorrow. That is the first step I am going to take for being a data engineer: control the data in-flow. Turns out, to be a data engineer, you have to collect awesome data, which I think, after reading many blogs and posts and comments, is the most painful part of being data engineer. Let's begin with this and see where the path leads.
