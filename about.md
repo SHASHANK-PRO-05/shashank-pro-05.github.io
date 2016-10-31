@@ -31,12 +31,12 @@ Hello, I am Shashank Kapoor and this page is my professional front.
 
 
 
-## Achievements
+## Achievements/Participation
 
 
 * **Star Performer(TCS-ILP)**
    
-   I am a star performer of TCS-ILP(Chennai) Batch which started on 18th August 2014. After this, I was straight way transferred to CTO department.
+   I am a star performer of TCS-ILP(Chennai) Batch which started on 18th August 2014. After this, I was straight a way transferred to CTO department.
 
 ***
 
@@ -45,6 +45,13 @@ Hello, I am Shashank Kapoor and this page is my professional front.
     My team won the West Delhi Zonals for soccer.
 
 ***
+
+* **BITS PILANI, Dance Competition**
+
+    Participated in Dance Competition
+
+***
+
 
 
 
