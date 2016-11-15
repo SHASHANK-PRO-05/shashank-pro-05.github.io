@@ -245,7 +245,10 @@ nav {
 //
 // .main
 //
-
+.education-card{
+  border: 2px solid rgba(0,0,0,0.3);
+  border-radius: 2%;
+}
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
