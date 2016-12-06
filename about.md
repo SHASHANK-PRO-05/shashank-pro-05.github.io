@@ -87,7 +87,7 @@ Hello, I am Shashank Kapoor. You can call me Shanky.
 			<div class="col-sm-9">New Era Public School</div>
 			<div class="col-sm-3">Affiliation:</div>
 			<div class="col-sm-9">Central Board of Secondary Education</div>
-			<div class="col-sm-3">Percentage:</div>
+			<div class="col-sm-3">CGPA:</div>
 			<div class="col-sm-9">89.8%</div>
 		</div>
 		<div class="col-md-1" style="clear:both;"></div>
@@ -99,7 +99,7 @@ Hello, I am Shashank Kapoor. You can call me Shanky.
 			<div class="col-sm-9">New Era Public School</div>
 			<div class="col-sm-3">Affiliation:</div>
 			<div class="col-sm-9">Central Board of Secondary Education</div>
-			<div class="col-sm-3">Percentage:</div>
+			<div class="col-sm-3">CGPA:</div>
 			<div class="col-sm-9">87.4%</div>
 		</div>
 	</div>
