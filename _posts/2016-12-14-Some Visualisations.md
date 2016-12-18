@@ -23,7 +23,7 @@ author: Shashank Kapoor
         <h6>
             Undergraduate enrollment trend(1996-2013)
         </h6>
-        If something is zero then it does not mean no students were enrolled. It is just that no data is found.
+        If something is zero then it does not mean no students were enrolled. It is just that no data is found. Also, I have added only few colleges as the list was very big. Use sliders and hover on circles.
         <div id="undergraduateTrend">
         </div>
     </div>
@@ -33,7 +33,12 @@ author: Shashank Kapoor
 .ticks {
   font: 10px sans-serif;
 }
-
+ .d3-tip text {
+    fill: #fff;
+    font-size: 12px;
+    stroke: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 .track,
 .track-inset,
 .track-overlay {
@@ -65,6 +70,8 @@ author: Shashank Kapoor
 }
 </style>
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
+<script type="text/javascript" src="/lib/d3-tip/index.js"></script>
 <script src="/lib/leaflet.markercluster/dist/leaflet.markercluster.js">
 </script>
 <script src="../scripts/visualisation.js" type="text/javascript">

@@ -28,18 +28,18 @@ $(document).ready(function() {
  */
 $(document).ready(function() {
     $.getJSON('/data/selectiveUndergraduateCounts.json', function(data) {
-        var height = 750;
+        var height = 500;
         var width = 750;
         var offsets = {
-            left: 50,
+            left: 100,
             right: 20,
-            bottom: 300,
+            bottom: 50,
             top: 20
         };
         var svgWidth = width - offsets.left - offsets.right;
         var svgHeight = height - offsets.top - offsets.bottom;
         var svg = d3.select('#undergraduateTrend').append('svg').attr('height', height).attr('width', width).append("g").attr("transform", "translate(" + offsets.left + "," + offsets.top + ")");
-        var max = 40000;
+        var max = 50000;
         var numberScale = d3.scaleLinear().domain([0, max]).range([svgHeight, 0]);
         var keys = Object.keys(data);
         //var collegeNameScale = d3.scaleBand().range([0, svgWidth]).padding(svgWidth / keys.length);
@@ -65,6 +65,12 @@ $(document).ready(function() {
         });
         var handle = slider.insert("circle", ".track-overlay").attr("class", "handle").attr("r", 9).attr('cx', x(1996));
         var d3Color = d3.scaleLinear().domain([0, keys.length / 2, keys.length]).range(['red', 'green', 'blue']);
+        var tip = d3.tip().attr('class', 'd3-tip').html(function(d, i) {
+            return "College: " + keys[i] + "\nEnrolled: " + d;
+        }).direction('nw').offset([0, 3]);
+        svg.append("text").attr("transform", "translate(" + (svgWidth / 2) + " ," + (height - 20) + ")").style("text-anchor", "middle").text("Year(Slider)");
+        svg.append("text").attr("transform", "rotate(-90)").attr("y", -70).attr("x", 0 - (svgHeight / 2)).attr("dy", "1em").style("text-anchor", "middle").text("Students Enrolled");
+        bubblessvg.call(tip);
         bubblesSetup(1996);
 
         function hue(h) {
@@ -94,12 +100,9 @@ $(document).ready(function() {
                 return numberScale(d);
             }).attr('r', function(d) {
                 return bubbleScaleRadius(d);
-            }).style('fill', function(d, i) {
-                console.log(d3Color(i));
+            }).on('mouseover', tip.show).on('mouseout', tip.hide).style('fill', function(d, i) {
                 return d3Color(i);
-            }).attr('fill-opacity', 0.5).append("svg:title").text(function(d, i) {
-                return 'College:' + keys[i] + "\nValue: " + d;
-            });;
+            }).attr('fill-opacity', 0.5);
             circles.exit().transition().duration(500).attr("r", 0).remove();
         }
     })
