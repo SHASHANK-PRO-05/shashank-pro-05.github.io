@@ -30,6 +30,12 @@ Hello, I am Shashank Kapoor. You can call me Shanky.
 	</div>
 </div>
 
+## Being Competitive
+
+I am trying to get better in Competitive Programming. I have decided to give each topic atleast two months. (Will explore Scala)
+
+From Jan-Feb(2017) going for trees.
+
 ## Skills
 
 * **Database** - `Data Modeling` / `Schema` / `Mongoose` / `MongoDB`/ `NoSQL` / `SQL`/ `MySQL` / `Cache` / `Redis`
