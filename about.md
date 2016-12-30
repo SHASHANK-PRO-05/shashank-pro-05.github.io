@@ -36,6 +36,8 @@ I am trying to get better in Competitive Programming. I have decided to give eac
 
 From Jan-Feb(2017) going for trees.
 
+Earlier I followed Hackerearth, but I found codeforces has awesome blog system which will definitely be helpful for me.
+
 ## Skills
 
 * **Database** - `Data Modeling` / `Schema` / `Mongoose` / `MongoDB`/ `NoSQL` / `SQL`/ `MySQL` / `Cache` / `Redis`

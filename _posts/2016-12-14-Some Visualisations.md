@@ -27,8 +27,18 @@ author: Shashank Kapoor
         <div id="undergraduateTrend">
         </div>
     </div>
+    <div class="col-md-12">
+      <h6>Race Division</h6>
+      <div class="col-md-12">
+        <div>
+        
+        <div class="col-md-12" id="racedivision">
+        </div>
+      
+    </div>
 </div>
 <style>
+
 
 .ticks {
   font: 10px sans-serif;
@@ -74,5 +84,10 @@ author: Shashank Kapoor
 <script type="text/javascript" src="/lib/d3-tip/index.js"></script>
 <script src="/lib/leaflet.markercluster/dist/leaflet.markercluster.js">
 </script>
-<script src="../scripts/visualisation.js" type="text/javascript">
+<script src="/scripts/visualisation.js" type="text/javascript">
 </script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/highcharts-more.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="/lib/async/dist/async.min.js" type="text/javascript" charset="utf-8" async defer></script>
+<script src="/scripts/racedivision/racedivision.js" type="text/javascript" charset="utf-8" async defer></script>

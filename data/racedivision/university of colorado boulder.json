@@ -1,0 +1,62 @@
+{
+	"2009": {
+		"UGDS_WHITE": "0",
+		"UGDS_BLACK": "0",
+		"UGDS_HISP": "0",
+		"UGDS_ASIAN": "0",
+		"UGDS_AIAN": "0",
+		"UGDS_NHPI": "0",
+		"UGDS_2MOR": "0",
+		"UGDS_NRA": "0.0165",
+		"UGDS_UNKN": "0.0538",
+		"UGDS": "26426"
+	},
+	"2010": {
+		"UGDS_WHITE": "0.7722",
+		"UGDS_BLACK": "0.0174",
+		"UGDS_HISP": "0.0723",
+		"UGDS_ASIAN": "0.0594",
+		"UGDS_AIAN": "0.0064",
+		"UGDS_NHPI": "0.0001",
+		"UGDS_2MOR": "0.0088",
+		"UGDS_NRA": "0.0201",
+		"UGDS_UNKN": "0.0432",
+		"UGDS": "25822"
+	},
+	"2011": {
+		"UGDS_WHITE": "0.7631",
+		"UGDS_BLACK": "0.0162",
+		"UGDS_HISP": "0.0821",
+		"UGDS_ASIAN": "0.0563",
+		"UGDS_AIAN": "0.0054",
+		"UGDS_NHPI": "0.0004",
+		"UGDS_2MOR": "0.0178",
+		"UGDS_NRA": "0.0249",
+		"UGDS_UNKN": "0.0338",
+		"UGDS": "25741"
+	},
+	"2012": {
+		"UGDS_WHITE": "0.7538",
+		"UGDS_BLACK": "0.0156",
+		"UGDS_HISP": "0.0895",
+		"UGDS_ASIAN": "0.0539",
+		"UGDS_AIAN": "0.0046",
+		"UGDS_NHPI": "0.0005",
+		"UGDS_2MOR": "0.0266",
+		"UGDS_NRA": "0.0298",
+		"UGDS_UNKN": "0.0256",
+		"UGDS": "25217"
+	},
+	"2013": {
+		"UGDS_WHITE": "0.7413",
+		"UGDS_BLACK": "0.0169",
+		"UGDS_HISP": "0.0959",
+		"UGDS_ASIAN": "0.0518",
+		"UGDS_AIAN": "0.0031",
+		"UGDS_NHPI": "0.0006",
+		"UGDS_2MOR": "0.0362",
+		"UGDS_NRA": "0.0376",
+		"UGDS_UNKN": "0.0166",
+		"UGDS": "25461"
+	}
+}
