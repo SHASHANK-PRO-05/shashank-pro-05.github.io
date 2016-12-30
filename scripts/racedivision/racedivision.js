@@ -7,7 +7,7 @@ $(document).ready(function() {
 				type: 'line'
 			},
 			title: {
-				text: 'Race Division',
+				text: 'Race Division Ratio',
 				x: -80
 			},
 			pane: {

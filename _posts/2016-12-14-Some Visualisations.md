@@ -28,7 +28,7 @@ author: Shashank Kapoor
         </div>
     </div>
     <div class="col-md-12">
-      <h6>Race Division</h6>
+      <h6>Race Division Ratio</h6>
       <div class="col-md-12">
         <div>
         
