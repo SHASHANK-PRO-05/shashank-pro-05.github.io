@@ -32,11 +32,12 @@ Hello, I am Shashank Kapoor. You can call me Shanky.
 
 ## Being Competitive
 
-I am trying to get better in Competitive Programming. I have decided to give each topic atleast two months. (Will explore Scala)
+I am trying to get better in Competitive Programming. I have decided to give each topic atleast two months. (Will explore this with  Scala as a primary language)
 
 From Jan-Feb(2017) going for trees.
 
-Earlier I followed Hackerearth, but I found codeforces has awesome blog system which will definitely be helpful for me.
+I will be using <a href="http://codeforces.com/profile/shanky.kapoor">codeforces</a> and <a href="https://www.hackerearth.com/@shashank.prof.05">hackerearth</a> as my learning platform.
+To see all my participations goto my github <a href="https://github.com/SHASHANK-PRO-05/scala-competitive">repo</a>.
 
 ## Skills
 
