@@ -28,11 +28,23 @@ author: Shashank Kapoor
         </div>
     </div>
     <div class="col-md-12">
-      <h6>Race Division Ratio</h6>
+      <h6>Race Division Ratio(2013)</h6>
       <div class="col-md-12">
         <div>
         
         <div class="col-md-12" id="racedivision">
+        </div>
+      
+    </div>
+     <div class="col-md-12">
+      <h6>Money Data(2013)</h6>
+      TUITFTE: Tuition revenue per full-time equivalent student,<br>
+      INEXPFTE: Instructional expenditures per FTE student,<br>
+      AVGFACSAL: The average faculty salary
+      <div class="col-md-12">
+        <div>
+        
+        <div class="col-md-12" id="moneyData">
         </div>
       
     </div>

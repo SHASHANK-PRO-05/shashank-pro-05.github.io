@@ -1,0 +1,65 @@
+{
+    "arizona state university-tempe": {
+        "2013": {
+            "TUITFTE": "11705",
+            "INEXPFTE": "9080",
+            "AVGFACSAL": "10405"
+        }
+    },
+    "university of california-santa barbara": {
+        "2013": {
+            "TUITFTE": "13553",
+            "INEXPFTE": "10571",
+            "AVGFACSAL": "13048"
+        }
+    },
+    "university of california-davis": {
+        "2013": {
+            "TUITFTE": "13500",
+            "INEXPFTE": "21365",
+            "AVGFACSAL": "12065"
+        }
+    },
+    "north carolina state university at raleigh": {
+        "2013": {
+            "TUITFTE": "7952",
+            "INEXPFTE": "13831",
+            "AVGFACSAL": "9774"
+        }
+    },
+    "university of minnesota-twin cities": {
+        "2013": {
+            "TUITFTE": "11069",
+            "INEXPFTE": "13003",
+            "AVGFACSAL": "10892"
+        }
+    },
+    "georgia institute of technology-main campus": {
+        "2013": {
+            "TUITFTE": "12234",
+            "INEXPFTE": "13939",
+            "AVGFACSAL": "11230"
+        }
+    },
+    "university of colorado boulder": {
+        "2013": {
+            "TUITFTE": "16762",
+            "INEXPFTE": "13949",
+            "AVGFACSAL": "10298"
+        }
+    },
+    "university of illinois at chicago": {
+        "2013": {
+            "TUITFTE": "12091",
+            "INEXPFTE": "25773",
+            "AVGFACSAL": "9797"
+        }
+    },
+    "purdue university-main campus": {
+        "2013": {
+            "TUITFTE": "15256",
+            "INEXPFTE": "15477",
+            "AVGFACSAL": "11005"
+        }
+    }
+}
