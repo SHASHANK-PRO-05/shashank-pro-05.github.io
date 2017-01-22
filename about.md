@@ -48,7 +48,9 @@ To see all my participations goto my github <a href="https://github.com/SHASHANK
 * **Tools** - `D3` / `Plotly` / `Git` / `Apache-Spark` / `Nodejs` / `Express` / `Restify` / `SocketIO` / `FCM` / `APNS` / `NPM` / `Gulp` / `Elastic Beanstalk` / `AWS Lambda` / `Many More ........`
     
 
+## Certifications
 
+Visit my <a href="https://www.linkedin.com/in/shashank-kapoor-b985ab97">LinkedIn</a> profile to know more
 
 ## Achievements/Participation
 
